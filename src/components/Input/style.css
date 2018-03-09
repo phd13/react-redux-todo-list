@@ -1,0 +1,33 @@
+.input {
+    width: 90%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    color: #111111;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline-color: #CCCCCC;
+    border: none;
+    font-size: 14px;
+}
+
+.button {
+    outline-color: #CCCCCC;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #CCCCCC;
+    width: 10%;
+    color:  #111111;
+    padding: 15px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.input-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

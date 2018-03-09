@@ -1,0 +1,28 @@
+.tasks-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls * {
+    margin-right: 10px;
+}
+
+.controls *:last-child {
+    margin-right: 0;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
